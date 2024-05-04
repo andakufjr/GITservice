@@ -1,0 +1,25 @@
+Dentro de la carpeta: git init
+
+Estoy en el working area.
+
+GIT ADD
+Paso esa carpeta donde git la va a poder controlar para ver
+qué cambios han hecho
+(si pongo git add . agrego todos los archivos para ver todos
+los cambios)
+
+GIT STATUS
+Ver los cambios que hayan hecho en los documentos (agregar con
+git add .)
+
+GIT COMMIT
+Guardamelo todo al repositorio.
+
+Si lo anterior da error, poner primero esto:
+ git config user.email "you@example.com"
+  git config user.name "Your Name"
+
+
+GIT PUSH
+Subir archivo a repositorio
+
