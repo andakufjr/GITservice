@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        
+        h1 {
+            font-size: 36px;
+        }
+        
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+        
+        .logo {
+            width: 200px;
+            margin-bottom: 30px;
+        }
+        
+        .quote {
+            font-style: italic;
+        }
+        
+        .button {
+            background-color: #FFD700;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg" alt="Star Wars Logo" class="logo">
+    <h1>Welcome to the Star Wars Universe</h1>
+    <p>Explore the galaxy far, far away and immerse yourself in the epic adventures of Jedi, Sith, droids, and more!</p>
+    <p class="quote">May the Force be with you.</p>
+    <a href="https://www.imdb.com/title/tt0076759/" class="button" target="_blank">Visit IMDb - A New Hope</a>
+    <button class="button" onclick="playMusic()">Play Star Wars Theme</button>
+
+    <script>
+        function playMusic() {
+            var audio = new Audio('https://www.youtube.com/watch?v=0Eg7q4J-GHQ');
+            audio.play();
+        }
+    </script>
+</body>
+
+</html>
