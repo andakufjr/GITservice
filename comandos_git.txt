@@ -19,7 +19,37 @@ Si lo anterior da error, poner primero esto:
  git config user.email "you@example.com"
   git config user.name "Your Name"
 
-
+git config --global user.email "sebastianalbertogomez@gmail.com"
+git config --global user.name "andakufjr"
 GIT PUSH
 Subir archivo a repositorio
 
+
+create a new repository on the command line
+echo "# GITservice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/andakufjr/GITservice.git
+git push -u origin main
+
+
+CADA VEZ QUE ACTUALICE UN ARCHIVO LOCALMENTE, DEBO ACTUALIZARLO EN EL REPOSITORIO DE LA SIGUIENTE FORMA
+git status (verificar que están los cambios no subidos)
+git add .
+git status (Verificar que se actualizaron cambios locales)
+git commit -m "se agrego un cambio" (a la rama main o master)
+git push -u origin main
+
+READY!!! 
+
+CREAR RAMA Y MOVERME DE RAMA:
+git branch prueba (se crea)
+git branch (verificar ramas existentes)
+git checkout prueba (cambiarme a la rama prueba)
+git branch (confirmar donde estoy)
+git status
+
+NOTA: Usar rama de prueba hasta hacer cambios definitivos
+al código, la descripción del commit que sea conciso.
